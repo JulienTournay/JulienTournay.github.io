@@ -1,63 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="author" content="jto">
-    <meta name="keywords" content="jto, beagle">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julien Tournay</title>
     <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
         body {
-            background-color: black;
-            color: white;
-            text-align: center;
+            background-color: beige;
         }
-        div {
-            text-align: left;
+        section.hi {
+            position: relative;
+            margin-top: 10%;
+            }
+            section.hi > * {
+            width: 550px;
             margin: auto;
-            width: 20%;
-        }
-         a {
-            color: white;
-        }
-        iframe {
-            border: 5px solid white;
-        }
+            position: relative;
+            }
+            section.hi em {
+            font-family: 'Open Sans';
+            text-align: center;
+            margin-right: 30px;
+            font-style: italic;
+            font-size: 60px;
+            height: inherit;
+            line-height: inherit;
+            width: 150px;
+            border-radius: 100px 100px 4px 100px;
+            color: #ffffff;
+            background: #e6753d;
+            float: left;
+            text-shadow: -1px 1px #ca5d28;
+            position: relative;
+            }
+            section.hi h1,
+            section.hi h1 span {
+            height: 150px;
+            line-height: 150px;
+            color: grey;
+            font-family: 'Open Sans';
+            font-size: 60px;
+            font-style: italic;
+            text-align: left;
+            }
+            section.hi h2, a{
+            font-size: 25px;
+            width: 290px;
+            margin-top: -40px;
+            color: gray;
+            font-family: 'Open Sans';
+            text-align: left;
+            }
+            a {
+                font-family: 'Courier New', Courier, monospace;
+                text-decoration: none;
+            }
     </style>
 </head>
 <body>
-    <h1>
-        Home of Julien Tournay
-        </h1>
-    <div>
-        <p>
-            hi Julien
-            </p>
-        <p>
-            nice username u've got...
-            </p>
-        <p>
-            may i present 2 u an offer?
-            </p>
-        <p>
-            ur name 4 <em>jto</em>
-            </p>
-        <p>
-            sounds like a deal? <a href="mailto:jtostendorf@gmail.com">contact me</a>
-            </p>
-        <p>
-            i'll be eagerly awaiting ur answer...
-            </p>
-        </div>
-    <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/KyMsQc_dk_4"
-        title="PO Production"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-        </iframe>
-    </body>
-    </html>
+    <section class="hi">
+        <h1><em>hi!</em> Julien</h1>
+        <h2>Wanna trade names?</h2>
+    </section>
+    <a href="mailto:jtostendorf@gamil.com">-->contact me</a>
+</body>
+</html>
